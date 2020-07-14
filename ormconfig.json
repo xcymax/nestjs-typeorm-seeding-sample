@@ -6,6 +6,8 @@
   "password": "docker",
   "database": "sample_typeormseed",
   "entities": ["dist/**/*.entity{.ts,.js}"],
+  "factories": ["dist/**/database/factories/**/*.js"],
+  "seeds": ["dist/**/database/seeds/**/*.js"],
   "migrations": ["migration/*.js"],
   "cli": {
     "migrationsDir": "migration"
